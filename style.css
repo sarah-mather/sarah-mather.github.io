@@ -1,0 +1,65 @@
+.test {
+    text-align: center
+}
+
+.test ul {
+    display: inline-block;
+    text-align: left;
+}
+
+* html .test ul {
+    display: inline
+}
+
+
+/* ie6 inline-block fix */
+
+*+html .test ul {
+    display: inline
+}
+
+
+/* ie7 inline-block fix */
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: darkslateblue;
+    font-family: Gill Sans;
+    text-align: center;
+}
+
+h3 {
+    color: darkslateblue;
+    font-family: Gill Sans;
+    text-align: center;
+}
+
+p {
+    font-family: Palatino;
+    color: darkslateblue;
+    text-align: center;
+}
+
+li {
+    font-family: Palatino;
+    color: darkslateblue;
+}
+
+table {
+    font-family: Palatino;
+    color: darkslateblue;
+    border-color: darkslateblue;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1;
+    border-spacing: 10;
+}
+
+a {
+    font-family: Palatino;
+    color: royalblue;
+    text-decoration: none;
+}
